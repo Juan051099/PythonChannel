@@ -15,9 +15,16 @@ print(D)
 #len
 c = len(A)
 print(c)
+def valor_abs(x):
+    if x >= 0:
+        return x
+    else:
+        return -x
 
 #Cardinal del producto cartesiano
 r = len(D)
 print(r)
 t = len(B)
 print(t)
+
+print(valor_abs(-3))
